@@ -1,0 +1,124 @@
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Chivo Mono', monospace;
+  margin: 0;
+  color: white;
+
+}
+.app-div{
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 20px 10px;
+  width: 517px;
+  height: 900px;
+  background-color: #23252C;;
+
+}
+
+
+/*main-js style*/
+
+.app-div-two{
+border-radius: 10px;
+margin: 20px auto;
+background-color: #1A1B21;
+width: 317px;
+height: 850;
+
+
+}
+.main-div{
+  line-height: 1.1em;
+}
+.prof-name{
+
+  font-size: 25px;
+  text-align: center;
+  margin: 20px 0px 0px 0px;
+}
+.prof-job{
+
+  font-size: 20px;
+  text-align: center;
+  margin-top: 0px;
+  color: #F3BF99;
+  margin-bottom: 5px;
+}
+
+.prof-web{
+  display: block;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.btn-div{
+  display: flex;
+  padding: 20px 10px;
+  justify-content: space-between;
+}
+.email-btn , .linkedin-btn{
+
+  width: 115px;
+  height: 35px;
+  border-radius: 6px;
+  display: flex;
+  font-size: 15px;
+  padding: 7px 20px ;
+  vertical-align: middle;
+  align-items: center;
+  
+  
+}
+
+.email-btn{
+  margin-left: 20px;
+ 
+}
+.linkedin-btn{
+  background-color: #5093E2;
+  color: white;
+  margin-right: 20px;
+}
+
+.about-interest-div{
+
+  width: 247px;
+  height: 201px;
+  padding: 10px;
+  padding-bottom: 4px;
+  margin: 5px auto;
+  overflow: hidden;
+  font-size: 13px;
+  line-height: 1.1em;
+}
+.about-interest-div > p{
+
+  font-size: 11px;
+  text-align: justify;
+  word-spacing: .05em;
+}
+.about-interest-div > h3{
+  margin-bottom: 3px;
+  margin-top: 4px;
+}
+
+.footer-div{
+  width: 317px;
+  height: 64px;
+  background-color:  #161619;;
+  padding: 3px;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.footer-image{
+  height: 30px;
+  filter: brightness(2);
+  margin: 10px;
+}
+
+
